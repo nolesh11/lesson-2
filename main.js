@@ -51,33 +51,33 @@ document.getElementById('btn').addEventListener('click', function() {
     
 })
 
-// let input_tel = document.getElementById('number')
+let input_tel = document.getElementById('number1')
 
-// input_tel.onclick = function () {
-//     input_tel.value = '+'
-// }
+input_tel.onclick = function () {
+    input_tel.value = '+'
+}
 
-// let start = 0
+let start = 0
 
-// input_tel.addEventListener('keydown', function () {
-//     let length = input_tel.value.length
+input_tel.addEventListener('keydown', function () {
+    let length = input_tel.value.length
 
-//     if(length == 4) {
-//         input_tel.value = input_tel.value + ' (';
-//     }
-//     if(length == 8) {
-//         input_tel.value = input_tel.value + ') ';
-//     }
-//     if(length == 13) {
-//         input_tel.value = input_tel.value + '-';
-//     }
-//     if(length == 16) {
-//         input_tel.value = input_tel.value + '-';
-//     }
-//     if (length > 18){
-//     	input_tel.value = input_tel.value.substring(0, input_tel.value.length - 1);
-//     }
+    if(length == 4) {
+        input_tel.value = input_tel.value + ' (';
+    }
+    if(length == 8) {
+        input_tel.value = input_tel.value + ') ';
+    }
+    if(length == 13) {
+        input_tel.value = input_tel.value + '-';
+    }
+    if(length == 16) {
+        input_tel.value = input_tel.value + '-';
+    }
+    if (length > 18){
+    	input_tel.value = input_tel.value.substring(0, input_tel.value.length - 1);
+    }
 
-//     length++
+    length++
     
-// })
+})
