@@ -1,0 +1,30 @@
+section {
+    width: 500px;
+    margin: 300px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid rgb(94, 94, 94);
+    padding: 20px;
+    font-size: 20px;
+}
+
+button {
+    padding: 15px 75px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #F98C37;
+    border-radius: 2px;
+    border: 0;
+    color: #fff;
+}
+
+.close {
+    display: none;
+}
